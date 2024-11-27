@@ -1,14 +1,14 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ yes ] <div> and <span>
+[ yes ] height: and width:
+[ yes ] margin: and padding: 
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Flexbox
 [ no ] Feature 2 - Flip Card
-[ no ] Feature 3 - Navbar
+[ yes ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
 [ no ] Feature 5 - Gradient Background
 [ no ] Feature 6 - Spotify Playlist
@@ -16,17 +16,70 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+ul
+      {list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: blue;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;}
+      li {display: inline;}
+      li a {text-decoration: none;
+      padding: 10px;
+      background-color: lightblue;
+      color: white;}
+      body
+      
+      {
+              background-color: rgb(223, 242, 235);
+            .first-sentence {
+              color: blue;
+              font-style: italic;
+              text-decoration: underline;
+            }
+             h1 {
+              color: rgb(85, 103, 156)
+            }
+          div {
+        height: 100px;
+        width: 500px;
+        background-color: powderblue;
+      }
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
-
-  </style>
-</head>
-<body>
-
- 
-
-</body>
+          img {
+              border: 5px solid #FFF9BF;
+              border-radius: 25% 10%;
+            }
+    </style>
+  </head>
+  <body>
+    
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Cakes</a></li>
+      <li><a href="index.html">Party</a></li>
+    </ul>
+    
+    <div id="info">
+      <h1>Birthday Party</h1>
+      <p>
+        <span class="first-sentence"> cake </span>
+      </p>
+      <img
+        src="https://cdn.glitch.global/3b9bd0a1-cb44-477e-93db-8c0b4d9131c8/85a7ff47-6d50-4a19-814c-9eb727c00028.60ec09a5d01823e0ee131ebf40c66d45.jpg?v=1732640746982"
+      />
+      <img
+        src="https://cdn.glitch.global/3b9bd0a1-cb44-477e-93db-8c0b4d9131c8/dcdd47c5-24e8-480f-8f8b-9abfeeeccba2.ba5daf2e03263f3ecdd029295fe55fa0.jpg?v=1732640784746"
+      />
+      <img
+        src="https://cdn.glitch.global/3b9bd0a1-cb44-477e-93db-8c0b4d9131c8/54bd963e-9b40-44b6-9d94-43fcd7a80f00.91c336844578ac5bc3d6e5057e2fa7bf.jpg?v=1732640824720"
+      />
+    </div>
+  </body>
 </html>
