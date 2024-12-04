@@ -1,0 +1,83 @@
+<!-- Unit 5 Project
+Requirements
+[  ] <div> and <span>
+[  ] height: and width:
+[  ] margin: and padding: 
+[  ] Three Images
+
+Select ONE Additional Feature to Add  
+[ no ] Feature 1 - Flexbox
+[ no ] Feature 2 - Flip Card
+[ no ] Feature 3 - Navbar
+[ no ] Feature 4 - Shaking Animation
+[ no ] Feature 5 - Gradient Background
+[ no ] Feature 6 - Spotify Playlist
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Unit 5 Project</title>
+  <meta charset="utf-8">
+  <style>
+  ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        background-color:black;
+        overflow:hidden;
+      
+      position:fixed;
+        top:0;
+        width:100%;
+        
+        
+        position:fixed;
+        top:0;
+        width:100%;  }
+
+      li{
+        display:inline;
+        
+      }
+      li a {text-decoration:none;
+      padding:8px;
+      background-color:rgb(207, 209, 183 );
+      color:orange;}
+  </style>
+</head>
+<body>
+
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="food.html">Food</a></li>
+      <li><a href="activities.html">Activities</a></li>
+      <li><a href="about.html">about</a></li>
+    </ul>
+
+    <h1>Home</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <p>
+      Torquent pharetra gravida neque himenaeos maximus? Luctus vitae aenean
+      iaculis a aptent facilisi penatibus class? Facilisi aliquet litora fusce;
+      gravida ullamcorper etiam potenti fames. Lacus purus donec quisque tempus
+      facilisi mattis in penatibus. Volutpat nullam venenatis eleifend morbi
+      quisque leo. Enim facilisis euismod dolor cursus; molestie mi. Risus
+      habitant maximus felis risus sit. Commodo erat sodales eros velit magna.
+      Aenean dictum diam accumsan tempus eros nibh efficitur. Fames posuere
+      fermentum ultrices; potenti eget natoque taciti.
+    </p>
+ 
+
+</body>
+</html>
