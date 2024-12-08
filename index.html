@@ -17,9 +17,24 @@ Select ONE Additional Feature to Add
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&display=swap"
+      rel="stylesheet"
+    />
     <title>Unit 5 Project</title>
     <meta charset="utf-8" />
     <style>
+      body {
+        background-color: rgb(187, 187, 123);
+      }
       ul {
         list-style-type: none;
         margin: 0;
@@ -42,8 +57,11 @@ Select ONE Additional Feature to Add
       li a {
         text-decoration: none;
         padding: 8px;
-        background-color: rgb(207, 209, 183);
-        color: orange;
+        background-color: rgb(15, 115, 133);
+        color: rgb(255, 170, 0);
+        font-family: "Rock 3D", system-ui;
+        font-weight: 1000;
+        font-style: normal;
       }
 
       .flip-card {
@@ -82,8 +100,8 @@ Select ONE Additional Feature to Add
       }
 
       .flip-card-back {
-        background-color: #2980b9;
-        color: white;
+        background-color: #8f8f52;
+        color: orange;
         transform: rotateY(180deg);
         font-family: "Rock 3D", system-ui;
         font-weight: 1000;
@@ -101,27 +119,25 @@ Select ONE Additional Feature to Add
         width: 100%;
         height: 100%;
       }
+      #title {
+        font-family: "Barrio", system-ui;
+        font-weight: 1000;
+        font-style: normal;
+        color: rgb(15, 115, 133);
+      }
     </style>
   </head>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap"
-    rel="stylesheet"
-  />
+
   <body>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="Food.html">Food</a></li>
       <li><a href="Activities.html">Activities</a></li>
-      <li><a href="about.html">about</a></li>
     </ul>
+    <br />
+    <h1 id="title">You are invited to...</h1>
+    <h5>(flip cards for the info)</h5>
 
-    <h1>Home</h1>
-    make a flip card here - RSVP Birthday!
-    <br />location: <br />
-    time: <br />
-    date: <br />
     <div class="info">
       <div class="main">
         <div class="flip-card">
@@ -134,9 +150,8 @@ Select ONE Additional Feature to Add
               />
             </div>
             <div class="flip-card-back">
-              <h1>Ari Wee</h1>
-              <p>Architect Engineer</p>
-              <p>We love that guy</p>
+              <h1>Ari n Tori's Freaking Birthday!!</h1>
+              <p>( ͡⊙ ͜ʖ ͡⊙)</p>
             </div>
           </div>
         </div>
@@ -144,12 +159,22 @@ Select ONE Additional Feature to Add
         <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src="" alt="Avatar" style="width: 300px; height: 300px" />
+              <img
+                src="https://cdn.glitch.global/eaa28dea-ecfe-440e-beaf-a10f75b49ab2/Screenshot%202024-12-06%204.14.37%20PM.png?v=1733519717753"
+                alt="Avatar"
+                style="width: 300px; height: 300px"
+              />
             </div>
             <div class="flip-card-back">
-              <h1>Ari Wee</h1>
-              <p>Architect Engineer</p>
-              <p>We love that guy</p>
+              <h1></h1>
+              <h2>
+                Location: Our APT!
+                <br />
+                <br />Date: 12.08.2024
+                <br />
+                <br />
+                Time: 12:30 PM - 5:30ish PM
+              </h2>
             </div>
           </div>
         </div>
@@ -164,9 +189,7 @@ Select ONE Additional Feature to Add
               />
             </div>
             <div class="flip-card-back">
-              <h1>Ari Wee</h1>
-              <p>Architect Engineer</p>
-              <p>We love that guy</p>
+              <h1>Be there or Be square...</h1>
             </div>
           </div>
         </div>

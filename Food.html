@@ -16,51 +16,116 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
-  ul{
-        list-style-type:none;
-        margin:0;
-        padding:0;
-        background-color:black;
-        overflow:hidden;
-      
-      position:fixed;
-        top:0;
-        width:100%;
-        
-        
-        position:fixed;
-        top:0;
-        width:100%;  }
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+              body {
+                background-color: rgb(187, 187, 123);
+              }
+              ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+                overflow: hidden;
 
-      li{
-        display:inline;
-        
-      }
-      li a {text-decoration:none;
-      padding:8px;
-      background-color:rgb(207, 209, 183 );
-      color:orange;}
-    
-  </style>
-</head>
-<body>
+                position: fixed;
+                top: 0;
+                width: 100%;
 
+                position: fixed;
+                top: 0;
+                width: 100%;
+              }
+
+              li {
+                display: inline;
+              }
+              li a {
+                text-decoration: none;
+                padding: 8px;
+                background-color: rgb(15, 115, 133);
+                color: rgb(255, 170, 0);
+                font-family: "Rock 3D", system-ui;
+                font-weight: 1000;
+                font-style: normal;
+              }
+
+              .photo-gallery {
+                background: rgb(255, 254, 217);
+              }
+              .photo {
+                width: 200px;
+                margin: 10px;
+
+              .container {
+                width: 400px;
+                margin: auto;
+                border: 6px dotted rgb(68, 100, 92);
+                border-top: 7px dotted rgb(234, 240, 239) ;
+                padding: 15px;
+              }
+
+
+             #title {
+            font-family: "Barrio", system-ui;
+      font-weight: 1000;
+      font-style: normal;
+              color:rgb(15, 115, 133);
+          }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="Food.html">Food</a></li>
       <li><a href="Activities.html">Activities</a></li>
-      <li><a href="about.html">about</a></li>
     </ul>
 
-    <h1>Food</h1>
-box model w margin and padding 
-  add  pictures 
-  PUT A SCROLL THINGY
-  if there are any dietary restrictions let us know @ arizonaw2@nycstudents.net
-</body>
+    <br />
+
+    <h1 id="title">Food</h1>
+
+    <div class="container">
+      <div class="photo-gallery">
+        <img
+          class="photo"
+          src="https://cdn.glitch.global/eaa28dea-ecfe-440e-beaf-a10f75b49ab2/Screenshot%202024-12-07%203.07.31%20AM.png?v=1733596141873"
+        />
+
+        <img
+          class="photo"
+          src="https://cdn.glitch.global/eaa28dea-ecfe-440e-beaf-a10f75b49ab2/Screenshot%202024-12-07%201.32.06%20PM.png?v=1733596342170"
+        />
+
+        <img
+          class="photo"
+          src="https://cdn.glitch.global/eaa28dea-ecfe-440e-beaf-a10f75b49ab2/Screenshot%202024-12-07%201.54.18%20PM.png?v=1733597670207"
+        />
+      </div>
+    </div>
+    if there are any dietary restrictions let us know @
+    arizonaw2@nycstudents.net
+  </body>
 </html>

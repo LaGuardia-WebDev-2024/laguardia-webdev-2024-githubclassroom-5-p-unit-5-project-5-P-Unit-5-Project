@@ -16,50 +16,107 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
-
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
-  ul{
-        list-style-type:none;
-        margin:0;
-        padding:0;
-        background-color:black;
-        overflow:hidden;
-      
-      position:fixed;
-        top:0;
-        width:100%;
-        
-        
-        position:fixed;
-        top:0;
-        width:100%;  }
-
-      li{
-        display:inline;
-        
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rock+3D&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&display=swap"
+      rel="stylesheet"
+    />
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        background-color: rgb(187, 187, 123);
       }
-      li a {text-decoration:none;
-      padding:8px;
-      background-color:rgb(207, 209, 183 );
-      color:orange;}
-    
-    
-  </style>
-</head>
-<body>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        overflow: hidden;
 
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      li {
+        display: inline;
+      }
+      li a {
+        text-decoration: none;
+        padding: 8px;
+        background-color: rgb(15, 115, 133);
+        color: rgb(255, 170, 0);
+        font-family: "Rock 3D", system-ui;
+        font-weight: 1000;
+        font-style: normal;
+      }
+
+      #title {
+        font-family: "Barrio", system-ui;
+        font-weight: 1000;
+        font-style: normal;
+        color: rgb(15, 115, 133);
+      }
+      .activities {
+        background: rgb(219, 235, 255);
+        width: 700px;
+        height: 350px;
+        overflow: auto;
+      }
+
+      .activities-text {
+        font-family: "Dokdo", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: green;
+        font-size: 100px;
+      }
+
+      #emoji {
+        font-size: 60px;
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&family=Dokdo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="Food.html">Food</a></li>
       <li><a href="Activities.html">Activities</a></li>
-      <li><a href="about.html">about</a></li>
     </ul>
 
-    <h1>Activities</h1>
+    <br />
+    <h1 id="title">Activities</h1>
 
-
-</body>
+    <div class="activities">
+      <div id="emoji">🐛🐛🐛🐛🐛🐛🐛🐛🐛</div>
+      <p class="activities-text">
+        - Stickers
+        <br />
+        - Karaoke <br />
+        - Drawing/fantastic corpse <br />
+        - Board games
+        
+      
+      </p>
+    </div>
+  </body>
 </html>
